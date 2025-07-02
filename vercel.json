@@ -1,3 +1,10 @@
 {
-  "buildCommand": "npm ci --force"
+  "build": {
+    "env": {
+      "NPM_CONFIG_FORCE": "true",
+      "NPM_CONFIG_TARGET_PLATFORM": "linux",
+      "NPM_CONFIG_TARGET_ARCH": "x64"
+    }
+  },
+  "installCommand": "npm install --force --platform=linux --arch=x64"
 }
