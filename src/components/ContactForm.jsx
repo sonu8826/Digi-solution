@@ -56,7 +56,7 @@ export default function ContactForm() {
 
   if (isSubmitted) {
     return (
-      <div className="max-w-xl mx-auto p-8 bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-2xl shadow-2xl">
+      <div className="max-w-xl mx-auto p-8 bg-gradient-to-br rounded-2xl shadow-2xl">
         <div className="text-center">
           <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
