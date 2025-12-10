@@ -138,54 +138,54 @@ const DigitalServicesLanding = () => {
   const latestWork = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Dholera Times",
       category: "Website Development",
       description:
-        "Modern e-commerce solution with advanced filtering, payment integration, and responsive design.",
+        "Real Estate Web Platform for Property Listings, Virtual Tours, and Client Management.",
       image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+        "https://res.cloudinary.com/deoknwyfo/image/upload/v1765352114/p-1_sxve45.jpg?w=600&h=400&fit=crop",
       technologies: ["Next.js", "Stripe", "Tailwind CSS", "MongoDB"],
       completedDate: "2024-12-15",
-      projectUrl: "https://example-ecommerce.com",
+      projectUrl: "https://www.dholeratimes.com/",
       isExternal: true,
     },
     {
       id: 2,
-      title: "Brand Identity & Logo Design",
-      category: "Graphic Design",
+      title: "Truliyo Digital",
+      category: "Website Development",
       description:
-        "Complete brand identity package including logo design, color palette, and brand guidelines.",
+        "Branding and Digital Marketing Agency Website with Portfolio and Service Showcase.",
       image:
-        "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
-      technologies: ["Adobe Illustrator", "Figma", "Brand Strategy"],
+        "https://res.cloudinary.com/deoknwyfo/image/upload/v1765352236/p-2_chiubp.jpg?w=600&h=400&fit=crop",
+      technologies: ["React js", "Tailwind css", "Framer Motion"],
       completedDate: "2024-11-28",
       projectUrl: "https://example-branding.com",
       isExternal: true,
     },
     {
       id: 3,
-      title: "Corporate Video Production",
+      title: "Brand Video Production",
       category: "Video Editing",
       description:
         "Professional corporate video with motion graphics, color grading, and sound design.",
       image:
-        "https://images.unsplash.com/photo-1492619392885-1d6f7d7e8e1a?w=600&h=400&fit=crop",
+        "https://img.freepik.com/free-photo/empty-office-desk-with-video-editing-software-running-computer_482257-116637.jpg?w=600&h=400&fit=crop",
       technologies: ["After Effects", "Premiere Pro", "DaVinci Resolve"],
       completedDate: "2024-12-01",
-      projectUrl: "https://vimeo.com/example",
+      projectUrl: "https://drive.google.com/drive/folders/1Z7kTDPG8gElk29rlTfJApD3bLk962cVJ?usp=drive_link",
       isExternal: true,
     },
     {
       id: 4,
-      title: "Mobile Banking App",
-      category: "Mobile App Development",
+      title: "Digital Growth",
+      category: "Digital Marketing",
       description:
-        "Secure mobile banking application with biometric authentication and real-time transactions.",
+        "Comprehensive digital marketing campaign including SEO, social media, and PPC.",
       image:
-        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
-      technologies: ["React Native", "Node.js", "Firebase", "Biometrics API"],
+        "https://img.freepik.com/free-photo/online-shopping-concept_23-2151896811.jpg?w=600&h=400&fit=crop",
+      technologies: ["Meta ads", "Google Ads", "SEO Tools"],
       completedDate: "2024-10-20",
-      projectUrl: "https://play.google.com/store/apps/details?id=example",
+      projectUrl: "/",
       isExternal: true,
     },
     
@@ -332,7 +332,7 @@ const DigitalServicesLanding = () => {
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-400">500+</div>
+              <div className="text-3xl font-bold text-blue-400">123+</div>
               <div className="text-slate-400">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -340,7 +340,7 @@ const DigitalServicesLanding = () => {
               <div className="text-slate-400">Happy Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-400">99%</div>
+              <div className="text-3xl font-bold text-green-400">100%</div>
               <div className="text-slate-400">Success Rate</div>
             </div>
             <div className="text-center">
@@ -619,8 +619,8 @@ const DigitalServicesLanding = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">Contact</h3>
               <ul className="space-y-2 text-slate-400">
-                <li>sonu88ggn@gmail.com</li>
-                <li>+91 9654439957</li>
+                <li>Fill the form to contact us</li>
+                {/* <li>+91 9654439957</li> */}
                 <li>Haryana, IN</li>
               </ul>
             </div>

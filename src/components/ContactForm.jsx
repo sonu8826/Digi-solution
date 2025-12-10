@@ -183,14 +183,14 @@ export default function ContactForm() {
         </div>
 
         {/* Contact info */}
-        <div className="pt-6 border-t border-slate-700">
+        {/* <div className="pt-6 border-t border-slate-700">
           <p className="text-center text-slate-400 text-sm">
             Or reach us directly at{' '}
             <a href="mailto:sonu88ggn@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">
               sonu88ggn@gmail.com
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
