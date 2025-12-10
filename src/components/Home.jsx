@@ -188,32 +188,7 @@ const DigitalServicesLanding = () => {
       projectUrl: "https://play.google.com/store/apps/details?id=example",
       isExternal: true,
     },
-    {
-      id: 5,
-      title: "Product Photography Series",
-      category: "Photo Editing",
-      description:
-        "High-end product photography with professional retouching and background optimization.",
-      image:
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop",
-      technologies: ["Photoshop", "Lightroom", "Studio Lighting"],
-      completedDate: "2024-11-10",
-      projectUrl: "https://behance.net/example",
-      isExternal: true,
-    },
-    {
-      id: 6,
-      title: "Digital Marketing Campaign",
-      category: "Digital Marketing",
-      description:
-        "Comprehensive digital marketing campaign with social media strategy and performance analytics.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Google Ads", "Facebook Ads", "Analytics", "SEO"],
-      completedDate: "2024-12-05",
-      projectUrl: "https://example-campaign.com",
-      isExternal: true,
-    },
+    
   ];
 
   return (
@@ -495,7 +470,7 @@ const DigitalServicesLanding = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
             {latestWork.map((project) => (
               <div
                 key={project.id}
