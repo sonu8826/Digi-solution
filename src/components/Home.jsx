@@ -159,7 +159,7 @@ const DigitalServicesLanding = () => {
         "https://res.cloudinary.com/deoknwyfo/image/upload/v1765352236/p-2_chiubp.jpg?w=600&h=400&fit=crop",
       technologies: ["React js", "Tailwind css", "Framer Motion"],
       completedDate: "2024-11-28",
-      projectUrl: "https://example-branding.com",
+      projectUrl: "https://www.truliyo.com/",
       isExternal: true,
     },
     {
